@@ -18,19 +18,19 @@ public class Anagrams {
 
         if (a.toLowerCase().charAt(i) == a.toLowerCase().charAt(j)) {
           counter1++;
-          
+
         }
 
         if (b.toLowerCase().charAt(i) == b.toLowerCase().charAt(j)) {
           counter2++;
-          
+
         }
 
         if (a.toLowerCase().charAt(i) == b.toLowerCase().charAt(j)) {
           counter3++;
         }
       }
-      
+
       if (counter3 == 0) {
         return false;
       }
@@ -41,7 +41,6 @@ public class Anagrams {
     }
 
     return true;
-    
 
   }
 }
