@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PlusOne {
   public static void main(String[] args) {
-    int[] digits = new int[] { 9,9,9,9,9,9 };
+    int[] digits = new int[] { 9,9 };
 
     /*
      * String digit = "";
