@@ -1,6 +1,7 @@
 package com.revision.classexercise.java4arraylist;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * The converted arraylist: [JAVA, Go, JS, C, C++]
@@ -16,6 +17,7 @@ public class Exercise9 {
 
     // 1. Convert String[] myArray to ArrayList<String> list by aslist() method
     // code here ...
+    List<String> list = Arrays.asList(myArray);
 
     System.out.println("The converted arraylist: " + list);
 

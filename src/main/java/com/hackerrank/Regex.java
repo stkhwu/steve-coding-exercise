@@ -1,4 +1,4 @@
-package com.vtxlab.app;
+package com.hackerrank;
 
 public class Regex {
   public static void main(String[] args) {
