@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "../../../../class/selfMadeDemo/Week1-3"
+		},
+		{
+			"path": "../../../../class/selfMadeDemo/Week4"
+		},
+		{
+			"path": "../../../../class/selfMadeDemo/Week5"
+		},
+		{
+			"path": "../../../../class/selfMadeDemo/Week6"
+		},
+		{
+			"path": "../../../../class/selfMadeDemo/Week7"
+		},
+		{
+			"path": "../../../../class/selfMadeDemo/Week8"
+		},
+		{
+			"path": "../../../../class/selfMadeDemo/Week9"
+		},
+	],
+	"settings": {
+		// "java.format.settings.url":.vscode/googlestyle.xml",
+		"java.project.sourcePaths":[
+			"src/main/java"
+		],
+		"java.project.outputPath":"bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		],
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
