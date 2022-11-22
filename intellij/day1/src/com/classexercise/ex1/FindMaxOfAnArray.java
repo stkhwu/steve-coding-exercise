@@ -1,6 +1,4 @@
-package com.ex1;
-
-import java.util.Arrays;
+package com.classexercise.ex1;
 
 public class FindMaxOfAnArray {
     public static int find(int[] array) {
