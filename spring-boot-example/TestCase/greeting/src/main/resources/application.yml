@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://183.178.189.139:9526/sys
+    url: jdbc:mysql://localhost:3306/sys
     username: root
-    password: mervod-nuqsoc-7hyXze
+    password: somePassword
     driver-class-name: com.mysql.cj.jdbc.Driver
 #  sql:
 #    init:

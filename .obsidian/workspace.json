@@ -11,8 +11,12 @@
             "id": "c115295f69b1feeb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md"
+              }
             }
           }
         ]
