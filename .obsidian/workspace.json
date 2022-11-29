@@ -1,0 +1,143 @@
+{
+  "main": {
+    "id": "ca0fc043d10cb53a",
+    "type": "split",
+    "children": [
+      {
+        "id": "43827ec76cea2ec9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a931673cd2e5913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spring-boot-example/TestCase/TestCase.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f297940cfc7b04c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b240308e65365e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3d3cf1a40ee97a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "55d5e79e9784e254",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7ccaffe97efe399c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f959d8af430661c",
+    "type": "split",
+    "children": [
+      {
+        "id": "01a8702eed3a9b0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "469caeb936abc0c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "spring-boot-example/TestCase/TestCase.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4548a37d2465878",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "spring-boot-example/TestCase/TestCase.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab6b953c7aca916e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dfac60afce39a0f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "spring-boot-example/TestCase/TestCase.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7a931673cd2e5913",
+  "lastOpenFiles": [
+    "README.md"
+  ]
+}
