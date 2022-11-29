@@ -11,8 +11,12 @@
             "id": "3b9747719c116379",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -131,7 +139,7 @@
   "active": "3b9747719c116379",
   "lastOpenFiles": [
     "coding-ground/bin/revision/classexercise/java18stream/exercise36/README.md",
-    "CodingExerciseREADME.md",
+    "README.md",
     "markdown-cheat-sheet.md",
     "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
     "spring-boot-example/Temporary.md",
