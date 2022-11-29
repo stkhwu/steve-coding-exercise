@@ -1,4 +1,4 @@
-#TestCase
+# TestCase
 
 **Setting up Testing environment:**
 Add configuration to User Settings (JSON) in **Visual Studio Code** for _static import_
@@ -18,7 +18,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 
 > We can do this but compare to only `@WebMvcTest` or `@DataJpaTest` the speed is much slower.
 
-#### `@Test`
+####`@Test`
 ==Method== annotation for each test case.
 
 
@@ -26,7 +26,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 
 ### - UnitTest
 
-> Include All the Scenario
+> Test all the Scenario
 > only need to give the **service input** and test the **expected output**
 
 *Configuration before Testing:*
@@ -46,13 +46,14 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
     Find `@Mock`
     same as `@BeforeEach` but not safe -->
 - `@BeforeEach`
-  ControllerClass shoud include `@AllArgsConstructor`
+  Execute before each `@Test`.
+  ControllerClass shoud include `@AllArgsConstructor` if you need 
 
   ```java
   ControllerInterface controllerInterface;
 
   @BeforeEach
-  void setup() {ControllerInterface = new ControllerClass(Service)}
+  void setup() {controllerInterface = new ControllerClass(Service)}
   ```
 *Testing Syntex:*
 
@@ -111,5 +112,8 @@ void testWebMvc() throws Exception {
 }
 ```
 > Note: Testing the content in integration test is redundant[^1]
+---
+### References
+[Test Auto-configuration Annotations](https://docs.spring.io/spring-boot/docs/current/reference/html/test-auto-configuration.html#appendix.test-auto-configuration)
 
 [^1]: All scenarios should be tested in Unit test session.
