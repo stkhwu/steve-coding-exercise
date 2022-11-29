@@ -8,17 +8,24 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "UselessReadMe",
+      "query": "spring-boot-example",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 4768582
       }
     },
     {
-      "query": "",
+      "query": "readme",
       "color": {
         "a": 1,
         "rgb": 14725458
+      }
+    },
+    {
+      "query": "cheat-sheet",
+      "color": {
+        "a": 1,
+        "rgb": 11424480
       }
     }
   ],
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.817470564060452,
-  "close": true
+  "scale": 1.9223644475772166,
+  "close": false
 }

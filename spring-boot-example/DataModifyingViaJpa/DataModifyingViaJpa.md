@@ -1,4 +1,4 @@
-#SQL #YML #Jpa #Entity #Repository
+#SQL #YML #Jpa #Entity #Repository #Spring-boot-example
 
 ## Accessing MySQL database
 Before accessing to database using springboot application, we need to add the dependency in pom.xml first.
