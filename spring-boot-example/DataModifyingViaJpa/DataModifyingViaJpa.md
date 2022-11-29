@@ -64,6 +64,7 @@ INSERT INTO tablename VALUES (2, 'Some data', 'Some data'); -- short but not tha
 Before reading any data from the database, we need to create an entity file for spring boot to communicate with our database. 
 
 Under `src/main/java/com.projectname`, create a folder `entity` and a class file `Tablename.java`.
+
 *Annotation:*
 - `@Entity` 
 	: Specifies that the class is an entity.
