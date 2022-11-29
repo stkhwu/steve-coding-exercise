@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "9a2713500c428e25",
+        "id": "cfb8366574067eba",
         "type": "tabs",
         "children": [
           {
-            "id": "27f34fbce99b96bf",
+            "id": "7341bb939a8c1a12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring-boot-example/YMLSettings/YMLSettings.md",
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "d50f9e07330880b0"
+            "group": "9879c433a77c669d"
           }
         ]
       },
       {
-        "id": "a084dc1a4c5d570e",
+        "id": "df229e5d0e557149",
         "type": "tabs",
         "children": [
           {
-            "id": "66d1752d498f787d",
+            "id": "319c3861a1fd807a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring-boot-example/YMLSettings/YMLSettings.md",
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "d50f9e07330880b0"
+            "group": "9879c433a77c669d"
           }
         ]
       }
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f959d8af430661c",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring-boot-example/YMLSettings/YMLSettings.md",
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring-boot-example/YMLSettings/YMLSettings.md",
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring-boot-example/YMLSettings/YMLSettings.md"
+                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md"
               }
             }
           }
@@ -156,10 +157,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "27f34fbce99b96bf",
+  "active": "7341bb939a8c1a12",
   "lastOpenFiles": [
-    "spring-boot-example/YMLSettings/YMLSettings.md",
     "spring-boot-example/TestCase/TestCase.md",
+    "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
+    "spring-boot-example/Temporary.md",
+    "spring-boot-example/TestCase/greeting/HELP.md",
     "Untitled.md",
     "coding-ground/src/revision/classexercise/java7method/exercise13/README.md",
     "markdown-cheat-sheet.md",

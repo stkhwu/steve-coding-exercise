@@ -24,7 +24,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 
 ---
 
-### - UnitTest
+### UnitTest
 
 > Test all the Scenario
 > only need to give the **service input** and test the **expected output**
@@ -77,7 +77,7 @@ void testCases(){
 
 ---
 
-### - Integration Test
+### Integration Test
 
 > Test whether the application works properly with the API(s)
 
@@ -111,7 +111,7 @@ void testWebMvc() throws Exception {
             .andExpect(content().string("Hello Worldd")); // MockMvcResultMatchers.content()
 }
 ```
-> Note: Testing the content in integration test is redundant[^1]
+> Note: Testing the content in integration test is redundant [^1]
 ---
 ### References
 [Test Auto-configuration Annotations](https://docs.spring.io/spring-boot/docs/current/reference/html/test-auto-configuration.html#appendix.test-auto-configuration)
