@@ -13,7 +13,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
     "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*",
   ]
 ```
-> Note: "org.mockito.ArgumentMatchers.*" is for using anyType() as input. See UnitTest Syntex Demo below.
+> Note: "org.mockito.ArgumentMatchers.*" is for using anyType() as input. e.g. anyLong(), anyInt(), anySet() etc.
 
 #### `@SpringBootTest`  
 ***Class*** annotation scanning all `@Component` : `@Controller`, `@Service`, `@Repository`, `@Repository` and `@Configuration` for testing
@@ -61,18 +61,18 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 *Demo Syntex:*
 
 ```java
-void testSomething(String input, String output){
+void testSomething(String input, String output) {
   // Mockito
   // Given
   when(service.serviceMethod()).thenReturn(input); // domain
   // When
-  String string = controllerInterface.serviceMethod();
+  String string = controllerInterface.controllerMethod();
   // Then
   assertThat(string).isEqualTo(output); // co-domain
 }
 
 @Test
-void testCases(){
+void testCases() {
   testSomething("input", "output");
   // ... 100 testcases
 }
@@ -110,12 +110,25 @@ void testCases(){
 void testWebMvc() throws Exception {
     when(service.serviceMethod()).thenReturn("Hello World");
     mockMvc.perform(get("/api/v1/testing")) // MockMvcRequestBuilders.get()
-            .andExpect(status().isOk()) // MockMvcResultMatchers.status()
-            .andExpect(content().string("Hello Worldd")); // MockMvcResultMatchers.content()
+           .andExpect(status().isOk()) // MockMvcResultMatchers.status()
+           .andExpect(content().string("Hello Worldd")); // MockMvcResultMatchers.content()
 }
 ```
 > Note: Testing the content in integration test is redundant [^1]
 ---
+
+### Data Jpa Test
+> Test whether the repository works properly.
+
+*Configuration before Testing:*
+- `@DataJpaTest`
+	: ***Class*** annotation for scanning `@Repository` **ONLY**
+
+- `@Autowired`
+	: 
+
+---
+
 ### References
 [Test Auto-configuration Annotations](https://docs.spring.io/spring-boot/docs/current/reference/html/test-auto-configuration.html#appendix.test-auto-configuration)
 
