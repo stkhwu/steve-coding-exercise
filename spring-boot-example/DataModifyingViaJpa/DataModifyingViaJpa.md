@@ -120,7 +120,7 @@ spring.jpa:
   hibernate.ddl-auto: update  
   show-sql: true
 ```
-> Note: No need to change above set up for most cases.
+> Note: No need to change the above set up for most cases.
 
 *Annotation:*
 - `@Query`
@@ -129,7 +129,7 @@ spring.jpa:
 - `@Modifying`
 	: Required when the query include INSERT, UPDATE, DELETE, and DDL statements.
 - `@Transactional`
-	: Required when you want to modify the data.
+	: Required when you try to modify the data.
 
 _Repository Demo Syntex:_
 ```java
