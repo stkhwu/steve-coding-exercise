@@ -7,19 +7,21 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 "java.completion.favoriteStaticMembers": [
     "org.assertj.core.api.Assertions.*",
     "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
     "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
     "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*",
     "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*",
   ]
 ```
+> Note: "org.mockito.ArgumentMatchers.*" is for using anyType() as input. See [[TestCase#^f322b7|Example]].
 
 #### `@SpringBootTest`  
-==Class== annotation scanning all `@Component` : `@Controller`, `@Service`, `@Repository`, `@Repository` and `@Configuration` for testing
+<span style="color:yellow">Class</span> annotation scanning all `@Component` : `@Controller`, `@Service`, `@Repository`, `@Repository` and `@Configuration` for testing
 
 > We can do this but compare to only `@WebMvcTest` or `@DataJpaTest` the speed is much slower.
 
 #### `@Test`
-==Method== annotation for each test case.
+<span style="color:yellow">Method</span> annotation for each test case.
 
 
 ---
@@ -32,7 +34,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 *Configuration before Testing:*
 
 - `@ExtendWith(SpringExtension.class)` 
-  : **Class annotation** for finding `@Mock` or `@MockBean`
+  : **<span style="color:yellow">Class</span> annotation** for finding `@Mock` or `@MockBean`
 
 
 - `@Mock`
@@ -55,6 +57,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
   @BeforeEach
   void setup() {controllerInterface = new ControllerClass(Service)}
   ```
+  
 *Testing Syntex:*
 
 ```java
@@ -75,6 +78,8 @@ void testCases(){
 }
 ```
 
+^f322b7
+
 ---
 
 ### Integration Test
@@ -83,7 +88,7 @@ void testCases(){
 
 *Configuration before Testing:*
 - `@WebMvcTest`
-  : ==Class== annotation for scanning `@Controller`, `@Configuration` **ONLY**
+  : <span style="color:yellow">Class</span> annotation for scanning `@Controller`, `@Configuration` **ONLY**
 
 - `@MockBean`
   : Create a new bean to spring context

@@ -4,20 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "b63853cbbd20dd36",
+        "id": "a2d392b479da00e4",
         "type": "tabs",
         "children": [
           {
-            "id": "c115295f69b1feeb",
+            "id": "7ee5a63c055d5904",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
+                "file": "spring-boot-example/TestCase/TestCase.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
-            }
+            },
+            "group": "b00377a5b8a57eb9"
+          }
+        ]
+      },
+      {
+        "id": "36232abf1a2d91a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9228c96dbdb82ca5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spring-boot-example/TestCase/TestCase.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "b00377a5b8a57eb9"
           }
         ]
       }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
+                "file": "spring-boot-example/TestCase/TestCase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
+                "file": "spring-boot-example/TestCase/TestCase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md"
+                "file": "spring-boot-example/TestCase/TestCase.md"
               }
             }
           }
@@ -136,17 +156,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c115295f69b1feeb",
+  "active": "7ee5a63c055d5904",
   "lastOpenFiles": [
+    "Java - HashSet.md",
     "spring-boot-example/TestCase/TestCase.md",
-    "spring-boot-example/Temporary.md",
     "spring-boot-example/DataModifyingViaJpa/DataModifyingViaJpa.md",
+    "spring-boot-example/Temporary.md",
     "coding-ground/src/revision/classexercise/README.md",
     "README.md",
     "coding-ground/bin/revision/classexercise/BootCampREADME.md",
     "coding-ground/bin/revision/classexercise/java18stream/exercise36/README.md",
     "markdown-cheat-sheet.md",
-    "spring-boot-example/TestCase/greeting/HELP.md",
-    "Untitled.md"
+    "spring-boot-example/TestCase/greeting/HELP.md"
   ]
 }
