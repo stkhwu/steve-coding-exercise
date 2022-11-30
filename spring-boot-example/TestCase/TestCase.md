@@ -26,7 +26,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 
 ---
 
-### UnitTest
+### Unit Test
 
 > Test all the Scenario
 > only need to give the **service input** and test the **expected output**
