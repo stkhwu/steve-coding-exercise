@@ -13,15 +13,15 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
     "org.springframework.test.web.servlet.result.MockMvcResultHandlers.*",
   ]
 ```
-> Note: "org.mockito.ArgumentMatchers.*" is for using anyType() as input. See [[TestCase#^f322b7|Example]].
+> Note: "org.mockito.ArgumentMatchers.*" is for using anyType() as input. See UnitTest Syntex Demo below.
 
 #### `@SpringBootTest`  
-<span style="color:yellow">Class</span> annotation scanning all `@Component` : `@Controller`, `@Service`, `@Repository`, `@Repository` and `@Configuration` for testing
+***Class*** annotation scanning all `@Component` : `@Controller`, `@Service`, `@Repository`, `@Repository` and `@Configuration` for testing
 
 > We can do this but compare to only `@WebMvcTest` or `@DataJpaTest` the speed is much slower.
 
 #### `@Test`
-<span style="color:yellow">Method</span> annotation for each test case.
+***Method*** annotation for each test case.
 
 
 ---
@@ -34,7 +34,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
 *Configuration before Testing:*
 
 - `@ExtendWith(SpringExtension.class)` 
-  : **<span style="color:yellow">Class</span> annotation** for finding `@Mock` or `@MockBean`
+  : ***Class*** annotation for finding `@Mock` or `@MockBean`
 
 
 - `@Mock`
@@ -58,7 +58,7 @@ Add configuration to User Settings (JSON) in **Visual Studio Code** for _static 
   void setup() {controllerInterface = new ControllerClass(Service)}
   ```
   
-*Testing Syntex:*
+*Demo Syntex:*
 
 ```java
 void testSomething(String input, String output){
@@ -78,8 +78,6 @@ void testCases(){
 }
 ```
 
-^f322b7
-
 ---
 
 ### Integration Test
@@ -88,7 +86,7 @@ void testCases(){
 
 *Configuration before Testing:*
 - `@WebMvcTest`
-  : <span style="color:yellow">Class</span> annotation for scanning `@Controller`, `@Configuration` **ONLY**
+  : ***Class*** annotation for scanning `@Controller`, `@Configuration` **ONLY**
 
 - `@MockBean`
   : Create a new bean to spring context
@@ -105,7 +103,7 @@ void testCases(){
   MockMvc mockMvc; // just like postman for testing
   ```
 
-*Testing Syntex:*
+*Demo Syntex:*
 
 ```java
 @Test
