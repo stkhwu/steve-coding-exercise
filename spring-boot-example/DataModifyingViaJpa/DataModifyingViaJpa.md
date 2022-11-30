@@ -71,7 +71,7 @@ Under `src/main/java/com.projectname`, create a folder `entity` and a class file
 - `@Table`
 	: Specifies the table to be read/ write.
 	
-*Entity Syntex:*
+*Entity Demo Syntex:*
 ```java
 @Entity  
 @Data  
@@ -101,7 +101,7 @@ Under `src/main/java/com.projectname`, create a folder `repository` and a **inte
 - `@Repository`
 	: Provide useful method for accessing database.
 
-*Repository Syntex:*
+*Repository Demo Syntex:*
 ```java
 @Repository
 public interface SomeRepository extends JpaRepository<EntityName, IDType> {}
@@ -131,7 +131,7 @@ spring.jpa:
 - `@Transactional`
 	: Required when you want to modify the data.
 
-_Repository Syntex:_
+_Repository Demo Syntex:_
 ```java
 @Repository 
 public interface StudentRepository extends JpaRepository<EntityName, IDType> {  
@@ -149,7 +149,7 @@ _For example:_
 @Query(nativeQuery = true, value = "insert into tablename (some_column, another_column) values (?1, ?2)") 
 void createSomething(String someColumn, Double anotherColumn); 
 ``` 
-> `?1` refer to `someColumn`, `?2` refer to `anotherColumn`
+> `?1` refer to `someColumn`, `?2` refer to `anotherColumn`, etc.
 
 ---
 ### References
