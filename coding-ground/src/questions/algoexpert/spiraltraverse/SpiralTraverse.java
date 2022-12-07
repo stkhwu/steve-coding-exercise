@@ -18,40 +18,46 @@ public class SpiralTraverse {
     int stepN = 0;
     int stepM = 0;
 
-
     if (n < m) {
-      stepN = n - 1;
+      stepN = n;
       stepM = n;
     } else {
-      stepN = m - 1;
+      stepN = m;
       stepM = m - 1;
     }
 
-    for (int i = 0; i < array.length; i++) {
-      ans.add(array[0][i]);
-    }
 
-    for (int i = 0; i < stepM; i++) {
-
-
-      for (int j = m - i; j > 0; j--) { // vertical operation
-
-        if (i % 2 == 0) {
-          ans.add(array[n - i / 2 - 1][m - i / 2 - j]); // down
-        } else {
-          ans.add(array[i / 2][j + i / 2]); // up
-        }
-
-      }
-
-      for (int j = 0; j < array.length; j++) { // horizontal opertaion
-
-      }
-
-
-
-    }
 
     return ans;
+  }
+
+  private static List<Integer> sprialTraverseHelper(int[][] array, int horizontalSteps, int verticalSteps, int hElement,
+      int VElement, int hRight, int vUp, List<Integer> target) {
+
+    if (hRight == 1) { // horizontal travel
+
+      for (int i = 0; i < array.length; i++) {
+        
+      }
+
+
+    } else {
+
+    }
+
+    if (vUp == 1) { // vertical travel
+
+    } else {
+
+    }
+
+
+
+    sprialTraverseHelper(array, horizontalSteps - 1, verticalSteps - 1, hElement - 1, VElement - 1, -1 * hRight,
+        -1 * vUp);
+
+
+
+    return new List<>();
   }
 }

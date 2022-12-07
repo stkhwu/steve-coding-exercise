@@ -8,3 +8,10 @@ API example: http://localhost:8081/api
 server:
   port: 8081
 ```
+
+
+
+
+SonaQube
+Jenkins
+Kubernetes
