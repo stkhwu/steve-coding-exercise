@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2022-12-11T04:21:58.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" version="20.6.2" etag="NQvGZObIuy-yRCeLvHUn" type="github">
+  <diagram id="JcASqn9NjzpGhBVimQKR" name="Page-1">
+    <mxGraphModel dx="479" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;MySQL&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-3" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Redis&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;" edge="1" parent="1" source="BiFzFvf6OWQci8mTorFQ-4" target="BiFzFvf6OWQci8mTorFQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-16" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="BiFzFvf6OWQci8mTorFQ-6">
+          <mxGeometry x="0.5397" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;" edge="1" parent="1" source="BiFzFvf6OWQci8mTorFQ-4" target="BiFzFvf6OWQci8mTorFQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-14" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="BiFzFvf6OWQci8mTorFQ-7">
+          <mxGeometry x="0.4362" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="BiFzFvf6OWQci8mTorFQ-4" target="BiFzFvf6OWQci8mTorFQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-15" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="BiFzFvf6OWQci8mTorFQ-8">
+          <mxGeometry x="0.059" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Microservice - check weather&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-5" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;open-weather-api&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="530" y="260" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="BiFzFvf6OWQci8mTorFQ-9" target="BiFzFvf6OWQci8mTorFQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-9" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;weather-api&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BiFzFvf6OWQci8mTorFQ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="305" as="sourcePoint" />
+            <mxPoint x="140" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiFzFvf6OWQci8mTorFQ-17" value="Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
