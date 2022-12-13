@@ -37,7 +37,7 @@ public class SpiralTraverse {
     if (hRight == 1) { // horizontal travel
 
       for (int i = 0; i < array.length; i++) {
-        
+
       }
 
 
@@ -53,11 +53,7 @@ public class SpiralTraverse {
 
 
 
-    sprialTraverseHelper(array, horizontalSteps - 1, verticalSteps - 1, hElement - 1, VElement - 1, -1 * hRight,
-        -1 * vUp);
 
-
-
-    return new List<>();
+    return null;
   }
 }

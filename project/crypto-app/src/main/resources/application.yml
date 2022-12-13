@@ -1,0 +1,8 @@
+server:
+  port: 8085
+
+rest:
+  crypto:
+    baseUrl: https://api.coingecko.com
+    serviceVers: api/v3/coins
+    serviceUrl: markets
