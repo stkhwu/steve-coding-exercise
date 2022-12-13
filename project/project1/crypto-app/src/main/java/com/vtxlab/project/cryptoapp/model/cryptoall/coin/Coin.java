@@ -1,7 +1,6 @@
 package com.vtxlab.project.cryptoapp.model.cryptoall.coin;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.vtxlab.project.cryptoapp.model.cryptoall.coin.roi.Roi;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,6 +14,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Coin implements Serializable {
+
+    @JsonProperty(value = "id")
+    String id;
 
     @JsonProperty(value = "symbol")
     String symbol;
@@ -117,4 +119,18 @@ public class Coin implements Serializable {
 //    "atl_date": "2013-07-06T00:00:00.000Z",
 //    "roi": null,
 //    "last_updated": "2022-12-12T04:20:21.164Z"
+}
+
+@Data
+class Roi implements Serializable {
+
+    BigDecimal times;
+
+    String currency;
+
+    BigDecimal percentage;
+
+    //"times": 97.47415677517,
+    //      "currency": "btc",
+    //      "percentage": 9747.415677517
 }

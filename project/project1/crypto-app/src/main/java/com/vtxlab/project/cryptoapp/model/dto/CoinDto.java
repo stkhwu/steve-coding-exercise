@@ -9,6 +9,9 @@ import java.math.BigDecimal;
 @Data
 public class CoinDto implements Serializable {
 
+    @JsonProperty(value = "id")
+    String id;
+
     @JsonProperty(value = "symbol")
     String symbol;
 
