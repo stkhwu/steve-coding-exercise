@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping(value = "/default")
+@CrossOrigin(origins = "*")
 public interface CryptoAppOperation {
 
     @GetMapping(value = "/coin/market")
-    @CrossOrigin(origins = "*")
     ResponseEntity<CoinDto[]> getCurrentPrice() throws ApiException;
 
     @GetMapping(value = "/coin/markets")
