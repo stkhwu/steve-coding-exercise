@@ -178,10 +178,6 @@ export default {
         const response = await axios.get(
           "http://localhost:8085/crypto/api/v1/coin/market"
         );
-
-        console.log("############ - market3");
-        console.log(response.data);
-
         coins.value = response.data;
       } catch (err) {
         console.log(err);
@@ -190,7 +186,7 @@ export default {
     // fetch timer, invoke backend service in every 2 seconds 
     setInterval(() => {
       retrieveCoins();
-    }, 10000);
+    }, 30000);
     // 10 items for marquee
     const tenCoins = computed(() => {
       return coins.value.slice(0, 10);
