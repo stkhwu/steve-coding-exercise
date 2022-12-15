@@ -1,0 +1,11 @@
+server:
+  port: 8086
+
+rest:
+  crypto:
+    baseUrl: https://api.polygon.io
+    serviceVers: v2
+    serviceUrl: aggs/ticker/X:{param}/prev
+    apiKey: 5DWJ3RV5rQpSyO3rU5p_VT_CpeIZskTr
+
+#https://api.polygon.io/v2/aggs/ticker/X:BTCUSD/prev?adjusted=true&apiKey=5DWJ3RV5rQpSyO3rU5p_VT_CpeIZskTr
