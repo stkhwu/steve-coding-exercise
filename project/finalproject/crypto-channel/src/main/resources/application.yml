@@ -1,0 +1,37 @@
+server:
+  port: 8088
+
+rest:
+  conn-mgr:
+    connection:
+      max-total: 20
+      max-per-route: 40
+    check:
+      inactivity: 1000
+  http-client:
+    timeout:
+      evictIdleConnection: 5
+  http-request-factory:
+    timeout:
+      pool-connect: 10000
+      server-connect: 10000
+      server-read: 20000
+
+service:
+  admin:
+    baseUrl: http://localhost:8087 # admin-service host
+    serviceVers: crypto/admin/api/v1
+    endpoint:
+      channel-url1: channel
+      coinmap-url: channel/{id}/coinmap # for approach 1
+      channel-url2: channel/{code}
+      # coinmap-url2: channel/{id}/coinmap2 # for approach 2
+
+  coingecko:
+    baseUrl: http://localhost:8085
+    serviceVers: crypto/api/v1
+    serviceUrl: coingecko/simple-price
+  polygon:
+    baseUrl: http://localhost:8086
+    serviceVers: crypto/api/v1
+    serviceUrl: price
