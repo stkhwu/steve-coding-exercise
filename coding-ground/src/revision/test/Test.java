@@ -27,9 +27,6 @@ public class Test {
     // return the n-th (0 < n < 9,223,372,036,854,775,807) number whose cube ends in 888.
 // running time: O(1)
     public static String getkthIntegerWhoseCubeEndsIn888(String n) throws NumberFormatException {
-        
-
-        System.out.println(a);
         BigInteger b = new BigInteger(n);
         BigInteger ans = BigInteger.valueOf(-58);
         final BigInteger INTERVAL = BigInteger.valueOf(250);
