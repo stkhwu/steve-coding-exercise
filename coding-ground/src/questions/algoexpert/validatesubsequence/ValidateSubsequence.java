@@ -34,7 +34,7 @@ class ValidateSubsequenceSolution {
     // return false;
 
     for (Integer e : array) {
-      if (e.equals(sequence.get(0))&& !sequence.isEmpty()) {
+      if (!sequence.isEmpty() && e.equals(sequence.get(0))) {
         sequence.remove(0);
         if (sequence.isEmpty()) {
           return true;
