@@ -2,10 +2,8 @@ package questions.leetcode.binarysearch;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int b = 1;
-        int a = 0;
-
-        System.out.println(a + b - 1 >>> 1);
+        BinarySearch b = new BinarySearch();
+        System.out.println(b.search(new int[]{-5, -3, 2, 13, 19}, -2));
     }
 
     public int search(int[] nums, int target) {
@@ -14,7 +12,7 @@ public class BinarySearch {
         int rightIndex = nums.length - 1;
         int middle = leftIndex + rightIndex >>> 1;
         // 1, 2, 3, 4, 5, 8, 9
-        while (leftIndex <= middle || rightIndex >= middle) {
+        while (leftIndex <= rightIndex) {
             if (nums[middle] == target) {
                 return middle;
             }

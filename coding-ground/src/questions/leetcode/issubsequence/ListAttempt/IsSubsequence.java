@@ -1,4 +1,4 @@
-package questions.leetcode.issubsequence;
+package questions.leetcode.issubsequence.ListAttempt;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
